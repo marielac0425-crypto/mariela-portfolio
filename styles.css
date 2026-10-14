@@ -1,0 +1,214 @@
+
+/* General website styling */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', Arial, sans-serif;
+    color: #17253d;
+    background-color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    color: #c49a56;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  h3 {
+    color: #17253d;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  p {
+    line-height: 1.8;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 5px dotted #c49a56;
+    width: 8%;
+    margin: 60px auto;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #17253d;
+    padding: 15px 30px;
+  }
+  
+  .navbar-brand {
+    color: #e9c58a !important;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+    margin: 0 10px;
+  }
+  
+  .nav-link:hover {
+    color: #e9c58a !important;
+  }
+  
+  /* Top Container */
+  .top-container {
+    background: linear-gradient(135deg, #17253d, #304769);
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  .top-container h2 {
+    color: #e9c58a;
+  }
+  
+  .jumbotron {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .welcome {
+    color: #e9c58a;
+    letter-spacing: 3px;
+    font-size: 14px;
+  }
+  
+  .portfolio-btn {
+    background-color: #e9c58a;
+    color: #17253d;
+    padding: 12px 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+  
+  .portfolio-btn:hover {
+    background-color: #ffffff;
+    color: #17253d;
+  }
+  
+  /* Middle Container */
+  .middle-container {
+    padding: 70px 20px;
+  }
+  
+  .intro {
+    max-width: 750px;
+    margin: auto;
+  }
+  
+  .skill-box {
+    padding: 25px;
+  }
+  
+  .skill-icon {
+    font-size: 45px;
+    color: #c49a56;
+    margin-bottom: 20px;
+  }
+  
+  /* Projects */
+  #projects {
+    padding: 30px 0;
+  }
+  
+  .project-card {
+    background-color: #f4f5f8;
+    border-radius: 12px;
+    padding: 30px 20px;
+    margin: 15px 0;
+    min-height: 200px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+  
+  .project-link {
+    margin-top: 30px;
+  }
+  
+  .project-link a {
+    color: #304769;
+    font-weight: bold;
+  }
+  
+  /* Bottom Container */
+  .bottom-container {
+    background-color: #17253d;
+    color: white;
+    padding: 60px 20px 25px;
+  }
+  
+  .bottom-container h2 {
+    color: #e9c58a;
+  }
+  
+  .bottom-container a {
+    color: #e9c58a;
+    text-decoration: none;
+  }
+  
+  .bottom-container a:hover {
+    color: white;
+  }
+  
+  .social-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+  }
+  
+  .social-menu i {
+    font-size: 28px;
+  }
+  
+  #currdate {
+    color: #e9c58a;
+    margin-top: 25px;
+  }
+  
+  .copyright {
+    font-size: 13px;
+    color: #cccccc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    h2 {
+      font-size: 1.7rem;
+    }
+  
+    .top-container {
+      padding: 70px 20px;
+    }
+  
+    .social-menu {
+      gap: 20px;
+    }
+  }
+  
+  /* Dark mode preference */
+  @media (prefers-color-scheme: dark) {
+    .middle-container {
+      background-color: #f4f5f8;
+    }
+  }
+  
